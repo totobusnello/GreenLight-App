@@ -45,6 +45,11 @@
             overflow-x: hidden;
         }
 
+        /* Prevent scroll when mobile menu is open */
+        body.menu-open {
+            overflow: hidden;
+        }
+
         h1, h2, h3, h4 {
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
@@ -81,6 +86,7 @@
             align-items: center;
             gap: 8px;
             text-decoration: none;
+            z-index: 1002;
         }
 
         .logo svg {
@@ -116,6 +122,80 @@
             color: var(--green);
         }
 
+        /* ========== MOBILE MENU ========== */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 28px;
+            cursor: pointer;
+            padding: 8px;
+            min-width: 44px;
+            min-height: 44px;
+            z-index: 1002;
+            color: var(--gray-800);
+        }
+
+        .mobile-menu-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .mobile-menu-overlay.active {
+            opacity: 1;
+        }
+
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 280px;
+            max-width: 80vw;
+            height: 100vh;
+            background: var(--white);
+            z-index: 1001;
+            padding: 80px 24px 32px;
+            box-shadow: -4px 0 20px rgba(0, 0, 0, 0.1);
+            transition: right 0.3s ease;
+            overflow-y: auto;
+        }
+
+        .mobile-nav.active {
+            right: 0;
+        }
+
+        .mobile-nav a {
+            display: block;
+            padding: 16px 0;
+            text-decoration: none;
+            color: var(--gray-800);
+            font-weight: 500;
+            font-size: 16px;
+            border-bottom: 1px solid var(--gray-200);
+            min-height: 44px;
+            transition: color 0.2s;
+        }
+
+        .mobile-nav a:hover {
+            color: var(--green);
+        }
+
+        .mobile-nav a.btn {
+            margin-top: 24px;
+            border-bottom: none;
+            text-align: center;
+            color: white;
+        }
+
         .btn {
             display: inline-flex;
             align-items: center;
@@ -129,6 +209,7 @@
             transition: all 0.2s;
             cursor: pointer;
             border: none;
+            min-height: 44px;
         }
 
         .btn-primary {
@@ -462,7 +543,7 @@
 
         .tasks-examples {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 24px;
             position: relative;
             z-index: 1;
@@ -961,6 +1042,7 @@
             border-radius: 8px;
             font-size: 1rem;
             font-family: 'Inter', sans-serif;
+            min-height: 44px;
         }
 
         .waitlist-form input:focus {
@@ -1024,6 +1106,9 @@
             text-decoration: none;
             font-size: 0.95rem;
             transition: color 0.2s;
+            min-height: 44px;
+            display: inline-block;
+            padding: 4px 0;
         }
 
         .footer-links a:hover {
@@ -1049,8 +1134,8 @@
         }
 
         .social-links a {
-            width: 40px;
-            height: 40px;
+            width: 44px;
+            height: 44px;
             background: var(--gray-800);
             border-radius: 8px;
             display: flex;
@@ -1067,27 +1152,71 @@
             color: white;
         }
 
-        /* ========== RESPONSIVE ========== */
-        @media (max-width: 968px) {
+        /* ========== RESPONSIVE - TABLET (768px) ========== */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .mobile-menu-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .mobile-menu-overlay {
+                display: block;
+            }
+
+            .mobile-nav {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            /* Hero */
+            .hero {
+                padding: 120px 0 60px;
+            }
+
             .hero-content {
                 grid-template-columns: 1fr;
                 text-align: center;
+                gap: 40px;
             }
 
             .hero-text h1 {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
+            }
+
+            .hero-tagline {
+                font-size: 1.2rem;
             }
 
             .hero-description {
-                margin: 0 auto 32px;
+                font-size: 1rem;
+                margin: 0 auto 24px;
             }
 
             .hero-cta {
                 justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .hero-cta .btn {
+                width: 100%;
+                max-width: 280px;
             }
 
             .hero-stats {
                 justify-content: center;
+                gap: 24px;
+            }
+
+            .stat-number {
+                font-size: 1.5rem;
             }
 
             .hero-visual {
@@ -1095,49 +1224,199 @@
             }
 
             .hero-phone {
-                width: 250px;
-                height: 500px;
+                width: 220px;
+                height: 440px;
+                border-radius: 32px;
+            }
+
+            .phone-header {
+                padding: 32px 16px 16px;
+            }
+
+            .phone-amount {
+                font-size: 1.5rem;
+            }
+
+            /* Section titles */
+            .section-title {
+                font-size: 1.75rem;
+            }
+
+            .section-subtitle {
+                font-size: 1rem;
+            }
+
+            .section-header {
+                margin-bottom: 40px;
+            }
+
+            /* Tasks section */
+            .tasks-section {
+                padding: 60px 0;
             }
 
             .tasks-section .section-title {
-                font-size: 2rem;
+                font-size: 1.75rem;
+            }
+
+            .tasks-section .section-subtitle {
+                font-size: 1rem;
+                margin-bottom: 40px;
             }
 
             .tasks-flow {
-                gap: 10px;
+                gap: 12px;
+                margin-bottom: 40px;
             }
 
             .task-flow-icon {
                 width: 70px;
                 height: 70px;
                 font-size: 32px;
+                border-radius: 16px;
             }
 
             .task-flow-arrow {
                 font-size: 20px;
             }
 
+            .task-flow-label {
+                font-size: 0.85rem;
+            }
+
+            .tasks-examples {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .task-example-card {
+                flex-direction: column;
+                text-align: center;
+                padding: 20px 16px;
+                gap: 12px;
+            }
+
+            .task-example-icon {
+                width: 48px;
+                height: 48px;
+                font-size: 24px;
+            }
+
+            .task-example-reward {
+                margin-left: 0;
+            }
+
+            /* Buckets section */
+            .buckets-section {
+                padding: 60px 0;
+            }
+
             .buckets-grid {
                 grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .bucket-card {
+                padding: 24px 16px;
+            }
+
+            .bucket-card-icon {
+                width: 52px;
+                height: 52px;
+                font-size: 24px;
+            }
+
+            .bucket-card h3 {
+                font-size: 1.1rem;
+            }
+
+            .bucket-card p {
+                font-size: 0.85rem;
+            }
+
+            /* Academy section */
+            .academy-section {
+                padding: 60px 0;
             }
 
             .academy-content {
                 grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .academy-features {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .academy-feature {
+                padding: 20px 16px;
+            }
+
+            .academy-feature-icon {
+                font-size: 36px;
+                margin-bottom: 12px;
+            }
+
+            .academy-feature h4 {
+                font-size: 1rem;
+            }
+
+            .academy-feature p {
+                font-size: 0.85rem;
             }
 
             .academy-progression {
                 order: -1;
+                padding: 24px;
+            }
+
+            .academy-progression h3 {
+                font-size: 1.25rem;
+                margin-bottom: 24px;
+            }
+
+            .progression-stage:nth-child(1) .progression-icon { font-size: 24px; }
+            .progression-stage:nth-child(2) .progression-icon { font-size: 28px; }
+            .progression-stage:nth-child(3) .progression-icon { font-size: 32px; }
+            .progression-stage:nth-child(4) .progression-icon { font-size: 36px; }
+
+            .progression-label {
+                font-size: 0.75rem;
+            }
+
+            .progression-xp {
+                font-size: 0.65rem;
+            }
+
+            /* Benefits section */
+            .benefits-section {
+                padding: 60px 0;
             }
 
             .benefits-grid {
                 grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .benefit-group h3 {
+                font-size: 1.25rem;
+            }
+
+            /* Pricing section */
+            .pricing-section {
+                padding: 60px 0;
             }
 
             .pricing-grid {
                 grid-template-columns: 1fr;
+                gap: 24px;
+                margin-top: 40px;
             }
 
+            /* Reorder pricing cards: featured first */
             .pricing-card.featured {
+                order: -1;
                 transform: none;
             }
 
@@ -1145,59 +1424,82 @@
                 transform: translateY(-8px);
             }
 
+            .pricing-card {
+                padding: 32px 24px;
+            }
+
+            .pricing-icon {
+                font-size: 40px;
+            }
+
+            .pricing-name {
+                font-size: 1.25rem;
+            }
+
+            .pricing-amount {
+                font-size: 2.5rem;
+            }
+
+            .pricing-amount .currency {
+                font-size: 1.25rem;
+            }
+
+            .pricing-card .btn {
+                width: 100%;
+            }
+
+            /* How section */
+            .how-section {
+                padding: 60px 0;
+            }
+
             .steps-grid {
                 grid-template-columns: 1fr;
+                gap: 32px;
+                margin-top: 40px;
             }
 
-            .footer-content {
-                grid-template-columns: 1fr 1fr;
+            .step-number {
+                width: 52px;
+                height: 52px;
+                font-size: 1.25rem;
             }
 
-            .nav-links {
-                display: none;
-            }
-        }
-
-        @media (max-width: 640px) {
-            .hero-text h1 {
-                font-size: 2rem;
+            .step-card h3 {
+                font-size: 1.1rem;
             }
 
-            .section-title {
-                font-size: 1.75rem;
+            .step-card p {
+                font-size: 0.9rem;
             }
 
-            .tasks-flow {
-                flex-direction: column;
-            }
-
-            .task-flow-arrow {
-                transform: rotate(90deg);
-            }
-
-            .buckets-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .academy-features {
-                grid-template-columns: 1fr;
-            }
-
-            .progression-track {
-                flex-wrap: wrap;
-                gap: 20px;
-            }
-
-            .progression-track::before {
-                display: none;
+            /* Waitlist section */
+            .waitlist-section {
+                padding: 60px 0;
             }
 
             .waitlist-form {
                 flex-direction: column;
+                padding: 0 16px;
+            }
+
+            .waitlist-form input,
+            .waitlist-form button {
+                width: 100%;
+            }
+
+            /* Footer */
+            footer {
+                padding: 40px 0 24px;
             }
 
             .footer-content {
-                grid-template-columns: 1fr;
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+
+            .footer-brand {
+                grid-column: 1 / -1;
             }
 
             .footer-bottom {
@@ -1207,19 +1509,163 @@
             }
         }
 
-        /* ========== MOBILE MENU ========== */
-        .mobile-menu-btn {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 8px;
-        }
+        /* ========== RESPONSIVE - MOBILE (480px) ========== */
+        @media (max-width: 480px) {
+            /* Hero */
+            .hero-text h1 {
+                font-size: 1.8rem;
+            }
 
-        @media (max-width: 968px) {
-            .mobile-menu-btn {
-                display: block;
+            .hero-tagline {
+                font-size: 1rem;
+            }
+
+            .hero-description {
+                font-size: 0.9rem;
+            }
+
+            .hero-phone {
+                width: 200px;
+                height: 400px;
+            }
+
+            .phone-buckets {
+                gap: 8px;
+                padding: 12px;
+            }
+
+            .phone-bucket {
+                padding: 10px 8px;
+            }
+
+            .bucket-value {
+                font-size: 0.8rem;
+            }
+
+            .hero-stats {
+                flex-wrap: wrap;
+                gap: 16px;
+            }
+
+            .stat {
+                min-width: 80px;
+            }
+
+            /* Section titles */
+            .section-title {
+                font-size: 1.5rem;
+            }
+
+            .section-subtitle {
+                font-size: 0.9rem;
+            }
+
+            .section-label {
+                font-size: 0.75rem;
+            }
+
+            /* Tasks */
+            .tasks-section .section-title {
+                font-size: 1.5rem;
+            }
+
+            .tasks-flow {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .task-flow-arrow {
+                transform: rotate(90deg);
+            }
+
+            .task-flow-icon {
+                width: 60px;
+                height: 60px;
+                font-size: 28px;
+            }
+
+            .tasks-examples {
+                grid-template-columns: 1fr;
+            }
+
+            .task-example-icon {
+                width: 44px;
+                height: 44px;
+                font-size: 22px;
+            }
+
+            /* Buckets */
+            .buckets-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .bucket-card {
+                padding: 20px 16px;
+            }
+
+            .bucket-card-icon {
+                width: 48px;
+                height: 48px;
+                font-size: 22px;
+            }
+
+            .bucket-card h3 {
+                font-size: 1rem;
+            }
+
+            /* Academy */
+            .academy-features {
+                grid-template-columns: 1fr;
+            }
+
+            .academy-feature-icon {
+                font-size: 32px;
+            }
+
+            .progression-track {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 16px;
+            }
+
+            .progression-track::before {
+                display: none;
+            }
+
+            .progression-stage {
+                width: 45%;
+            }
+
+            /* Pricing */
+            .pricing-card {
+                padding: 28px 20px;
+            }
+
+            .pricing-amount {
+                font-size: 2rem;
+            }
+
+            .pricing-features li {
+                font-size: 0.9rem;
+                padding: 10px 0;
+            }
+
+            /* Footer */
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .footer-links {
+                text-align: center;
+            }
+
+            .footer-links h4 {
+                margin-bottom: 16px;
+            }
+
+            .social-links {
+                justify-content: center;
             }
         }
     </style>
@@ -1246,9 +1692,21 @@
                 <a href="#como-funciona">Como funciona</a>
                 <a href="#waitlist" class="btn btn-primary">Entrar na lista</a>
             </nav>
-            <button class="mobile-menu-btn">&#9776;</button>
+            <button class="mobile-menu-btn" aria-label="Abrir menu" aria-expanded="false">&#9776;</button>
         </div>
     </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="menuOverlay"></div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="#tarefas">Tarefas</a>
+        <a href="#academy">Academy</a>
+        <a href="#precos">Precos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#waitlist" class="btn btn-primary">Entrar na lista</a>
+    </nav>
 
     <!-- Hero Section -->
     <section class="hero">
@@ -1804,6 +2262,65 @@
             </div>
         </div>
     </footer>
+
+    <!-- Mobile Menu JavaScript -->
+    <script>
+        (function() {
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            const mobileNav = document.getElementById('mobileNav');
+            const menuOverlay = document.getElementById('menuOverlay');
+            const body = document.body;
+
+            function openMenu() {
+                mobileNav.classList.add('active');
+                menuOverlay.classList.add('active');
+                body.classList.add('menu-open');
+                menuBtn.innerHTML = '&#10005;';
+                menuBtn.setAttribute('aria-expanded', 'true');
+                menuBtn.setAttribute('aria-label', 'Fechar menu');
+            }
+
+            function closeMenu() {
+                mobileNav.classList.remove('active');
+                menuOverlay.classList.remove('active');
+                body.classList.remove('menu-open');
+                menuBtn.innerHTML = '&#9776;';
+                menuBtn.setAttribute('aria-expanded', 'false');
+                menuBtn.setAttribute('aria-label', 'Abrir menu');
+            }
+
+            function toggleMenu() {
+                if (mobileNav.classList.contains('active')) {
+                    closeMenu();
+                } else {
+                    openMenu();
+                }
+            }
+
+            menuBtn.addEventListener('click', toggleMenu);
+            menuOverlay.addEventListener('click', closeMenu);
+
+            // Close menu when clicking on a link
+            const navLinks = mobileNav.querySelectorAll('a');
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', closeMenu);
+            });
+
+            // Close menu on escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && mobileNav.classList.contains('active')) {
+                    closeMenu();
+                }
+            });
+
+            // Close menu on resize to desktop
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768 && mobileNav.classList.contains('active')) {
+                    closeMenu();
+                }
+            });
+        })();
+    </script>
 
 </body>
 </html>
