@@ -1,6 +1,6 @@
 # Modelo Financeiro Conservador - Fintech Educacao Financeira Familiar Brasil
 
-> **Documento**: Modelo Financeiro Completo (Cenario Conservador) | Versao 1.0 | Janeiro 2026
+> **Documento**: Modelo Financeiro Completo (Cenario Conservador) | Versao 2.0 | Janeiro 2026
 >
 > **Projeto**: Mesada Digital + Cartao Debito para Menores (6-17 anos)
 > **Horizonte**: 5 Anos (2026-2030)
@@ -18,8 +18,8 @@
 | Familias Ativas | 15.000 | 45.000 | 100.000 | 180.000 | 300.000 |
 | ARR | R$ 4,1M | R$ 12,2M | R$ 27,0M | R$ 48,7M | R$ 81,1M |
 | Receita Total | R$ 4,1M | R$ 12,2M | R$ 27,0M | R$ 48,7M | R$ 81,1M |
-| EBITDA | -R$ 1,7M | R$ 0,4M | R$ 7,5M | R$ 19,6M | R$ 39,7M |
-| Margem EBITDA | -42% | 4% | 28% | 40% | 49% |
+| EBITDA | -R$ 1,3M | R$ 1,2M | R$ 8,7M | R$ 21,0M | R$ 41,4M |
+| Margem EBITDA | -32% | 10% | 32% | 43% | 51% |
 
 ### Necessidade de Capital Total
 
@@ -33,11 +33,12 @@
 ### Tese de Investimento
 
 1. **Mercado Grande:** 15M+ familias classe AB no Brasil
-2. **Unit Economics Solidos:** LTV/CAC > 3x desde Ano 2
+2. **Unit Economics Solidos:** LTV/CAC > 3x desde Ano 1
 3. **Escalabilidade:** Margem bruta de 85% permite escala eficiente
-4. **Break-Even Rapido:** 18 meses com gestao disciplinada
+4. **Break-Even Rapido:** 16 meses com gestao disciplinada e time enxuto
 5. **Multiplas Receitas:** Subscriptions + Interchange + Float
 6. **Defensibilidade:** Dados familiares + habitos financeiros
+7. **Fundadores Alinhados:** Mantem 55% pos-aportes, forte skin in the game
 
 ---
 
@@ -209,9 +210,9 @@ ARPU = R$ 17,50/mes (sobre pagantes)
 | **OPEX** | | | | | |
 | | | | | | |
 | **Pessoal** | | | | | |
-| Headcount | 20 | 35 | 50 | 65 | 80 |
+| Headcount | 17 | 30 | 42 | 55 | 68 |
 | Custo medio/pessoa/mes | R$ 12.000 | R$ 12.000 | R$ 12.000 | R$ 12.000 | R$ 12.000 |
-| **Total Pessoal** | **R$ 2,88M** | **R$ 5,04M** | **R$ 7,20M** | **R$ 9,36M** | **R$ 11,52M** |
+| **Total Pessoal** | **R$ 2,45M** | **R$ 4,32M** | **R$ 6,05M** | **R$ 7,92M** | **R$ 9,79M** |
 | | | | | | |
 | **Marketing (CAC)** | | | | | |
 | % da Receita | 30% | 25% | 20% | 17% | 15% |
@@ -224,7 +225,7 @@ ARPU = R$ 17,50/mes (sobre pagantes)
 | Outros (contingencia) | R$ 0,15M | R$ 0,25M | R$ 0,40M | R$ 0,60M | R$ 0,80M |
 | **Total Outros OPEX** | **R$ 1,05M** | **R$ 1,75M** | **R$ 2,70M** | **R$ 3,90M** | **R$ 5,20M** |
 | | | | | | |
-| **TOTAL OPEX** | **R$ 5,15M** | **R$ 9,83M** | **R$ 15,31M** | **R$ 21,54M** | **R$ 28,89M** |
+| **TOTAL OPEX** | **R$ 4,72M** | **R$ 9,11M** | **R$ 14,16M** | **R$ 20,10M** | **R$ 27,16M** |
 
 ### 3.4 EBITDA e Resultado
 
@@ -233,28 +234,28 @@ ARPU = R$ 17,50/mes (sobre pagantes)
 | Receita Bruta | R$ 4,06M | R$ 12,17M | R$ 27,05M | R$ 48,69M | R$ 81,14M |
 | (-) COGS | R$ 0,63M | R$ 1,89M | R$ 4,20M | R$ 7,56M | R$ 12,60M |
 | **Lucro Bruto** | R$ 3,43M | R$ 10,28M | R$ 22,85M | R$ 41,13M | R$ 68,54M |
-| (-) OPEX Total | R$ 5,15M | R$ 9,83M | R$ 15,31M | R$ 21,54M | R$ 28,89M |
-| **EBITDA** | **-R$ 1,72M** | **R$ 0,45M** | **R$ 7,54M** | **R$ 19,59M** | **R$ 39,65M** |
-| **Margem EBITDA** | **-42%** | **4%** | **28%** | **40%** | **49%** |
+| (-) OPEX Total | R$ 4,72M | R$ 9,11M | R$ 14,16M | R$ 20,10M | R$ 27,16M |
+| **EBITDA** | **-R$ 1,29M** | **R$ 1,17M** | **R$ 8,69M** | **R$ 21,03M** | **R$ 41,38M** |
+| **Margem EBITDA** | **-32%** | **10%** | **32%** | **43%** | **51%** |
 | | | | | | |
 | (-) D&A | R$ 0,10M | R$ 0,20M | R$ 0,40M | R$ 0,60M | R$ 0,80M |
-| **EBIT** | -R$ 1,82M | R$ 0,25M | R$ 7,14M | R$ 18,99M | R$ 38,85M |
+| **EBIT** | -R$ 1,39M | R$ 0,97M | R$ 8,29M | R$ 20,43M | R$ 40,58M |
 | | | | | | |
 | (+/-) Resultado Financeiro | R$ 0,05M | R$ 0,10M | R$ 0,20M | R$ 0,30M | R$ 0,50M |
-| **EBT** | -R$ 1,77M | R$ 0,35M | R$ 7,34M | R$ 19,29M | R$ 39,35M |
+| **EBT** | -R$ 1,34M | R$ 1,07M | R$ 8,49M | R$ 20,73M | R$ 41,08M |
 | | | | | | |
-| (-) IR/CSLL (34%) | R$ 0 | R$ 0,12M | R$ 2,50M | R$ 6,56M | R$ 13,38M |
-| **LUCRO LIQUIDO** | **-R$ 1,77M** | **R$ 0,23M** | **R$ 4,84M** | **R$ 12,73M** | **R$ 25,97M** |
-| **Margem Liquida** | -44% | 2% | 18% | 26% | 32% |
+| (-) IR/CSLL (34%) | R$ 0 | R$ 0,36M | R$ 2,89M | R$ 7,05M | R$ 13,97M |
+| **LUCRO LIQUIDO** | **-R$ 1,34M** | **R$ 0,71M** | **R$ 5,60M** | **R$ 13,68M** | **R$ 27,11M** |
+| **Margem Liquida** | -33% | 6% | 21% | 28% | 33% |
 
 ### 3.5 Evolucao Visual do EBITDA
 
 ```
-Ano 1: R$ -1,72M  |========== PREJUIZO
-Ano 2: R$  0,45M  |= BREAK-EVEN
-Ano 3: R$  7,54M  |=============== CRESCIMENTO
-Ano 4: R$ 19,59M  |=============================== ESCALA
-Ano 5: R$ 39,65M  |============================================== MATURIDADE
+Ano 1: R$ -1,29M  |======= PREJUIZO
+Ano 2: R$  1,17M  |=== LUCRATIVO
+Ano 3: R$  8,69M  |================= CRESCIMENTO
+Ano 4: R$ 21,03M  |================================== ESCALA
+Ano 5: R$ 41,38M  |================================================== MATURIDADE
 ```
 
 ---
@@ -316,8 +317,8 @@ Ano 5: R$ 39,65M  |============================================== MATURIDADE
 |---------|-------|-------|-------|-------|-------|
 | Receita/Usuario/Ano | R$ 270 | R$ 270 | R$ 270 | R$ 270 | R$ 270 |
 | COGS/Usuario/Ano | R$ 42 | R$ 42 | R$ 42 | R$ 42 | R$ 42 |
-| OPEX/Usuario/Ano | R$ 343 | R$ 219 | R$ 153 | R$ 120 | R$ 96 |
-| EBITDA/Usuario/Ano | R$ -115 | R$ 10 | R$ 75 | R$ 109 | R$ 132 |
+| OPEX/Usuario/Ano | R$ 315 | R$ 202 | R$ 142 | R$ 112 | R$ 91 |
+| EBITDA/Usuario/Ano | R$ -86 | R$ 26 | R$ 87 | R$ 117 | R$ 138 |
 
 ### 4.6 Resumo Unit Economics
 
@@ -337,7 +338,7 @@ Ano 5: R$ 39,65M  |============================================== MATURIDADE
 |   LTV:CAC                    8,6x                                     |
 |   Payback                    4,9 meses                                |
 |                                                                       |
-|   EBITDA/Usuario/Ano         R$ 132                                   |
+|   EBITDA/Usuario/Ano         R$ 138                                   |
 |                                                                       |
 +-----------------------------------------------------------------------+
 ```
@@ -370,16 +371,28 @@ Ano 5: R$ 39,65M  |============================================== MATURIDADE
 | Area | Ano 1 | Ano 2 | Ano 3 | Ano 4 | Ano 5 |
 |------|-------|-------|-------|-------|-------|
 | **Headcount** | | | | | |
-| Engenharia | 7 | 12 | 18 | 23 | 28 |
+| Engenharia | 4 | 7 | 10 | 13 | 16 |
 | Produto/Design | 3 | 5 | 8 | 10 | 12 |
 | Operacoes/Suporte | 4 | 7 | 10 | 13 | 16 |
 | Comercial/Marketing | 3 | 5 | 8 | 10 | 12 |
 | G&A (Admin/Finance/Legal) | 3 | 6 | 6 | 9 | 12 |
-| **Total Headcount** | **20** | **35** | **50** | **65** | **80** |
+| **Total Headcount** | **17** | **30** | **42** | **55** | **68** |
 | | | | | | |
 | **Custo Medio/Pessoa** | | | | | |
 | Salario medio mensal (com encargos) | R$ 12.000 | R$ 12.000 | R$ 12.000 | R$ 12.000 | R$ 12.000 |
-| **Custo total pessoal/ano** | R$ 2,88M | R$ 5,04M | R$ 7,20M | R$ 9,36M | R$ 11,52M |
+| **Custo total pessoal/ano** | R$ 2,45M | R$ 4,32M | R$ 6,05M | R$ 7,92M | R$ 9,79M |
+
+**Distribuicao do Time (Ano 5):**
+
+| Area | % | Pessoas |
+|------|---|---------|
+| Engenharia | 24% | 16 |
+| Produto/Design | 18% | 12 |
+| Operacoes/Suporte | 24% | 16 |
+| Comercial/Marketing | 18% | 12 |
+| G&A (Admin/Finance/Legal) | 18% | 12 |
+
+**Nota sobre headcount:** Time ultra-enxuto com foco em eficiencia. Engenharia com 4 pessoas no Ano 1 (2 backend, 1 mobile, 1 infra/devops), alavancando ferramentas de produtividade (AI-assisted coding, low-code para operacoes, automacao de processos). Crescimento gradual mantendo alta produtividade por pessoa.
 
 ### 5.3 Marketing por Canal
 
@@ -419,9 +432,9 @@ Ano 5: R$ 39,65M  |============================================== MATURIDADE
 | Metrica | Ano 1 | Ano 2 | Ano 3 | Ano 4 | Ano 5 |
 |---------|-------|-------|-------|-------|-------|
 | **Operacional** | | | | | |
-| EBITDA | -R$ 1,72M | R$ 0,45M | R$ 7,54M | R$ 19,59M | R$ 39,65M |
+| EBITDA | -R$ 1,29M | R$ 1,17M | R$ 8,69M | R$ 21,03M | R$ 41,38M |
 | (+/-) Var. Cap. Giro | -R$ 0,30M | -R$ 0,50M | -R$ 0,80M | -R$ 1,00M | -R$ 1,20M |
-| **FCO** | -R$ 2,02M | -R$ 0,05M | R$ 6,74M | R$ 18,59M | R$ 38,45M |
+| **FCO** | -R$ 1,59M | R$ 0,67M | R$ 7,89M | R$ 20,03M | R$ 40,18M |
 | | | | | | |
 | **Investimentos** | | | | | |
 | CAPEX | -R$ 0,20M | -R$ 0,35M | -R$ 0,50M | -R$ 0,70M | -R$ 1,00M |
@@ -431,28 +444,28 @@ Ano 5: R$ 39,65M  |============================================== MATURIDADE
 | **Financiamentos** | | | | | |
 | Aporte Equity | R$ 5,50M | R$ 15,00M | R$ 0 | R$ 0 | R$ 0 |
 | | | | | | |
-| **Variacao Caixa** | R$ 2,98M | R$ 14,10M | R$ 5,44M | R$ 16,89M | R$ 36,25M |
-| **Caixa Inicial** | R$ 0 | R$ 2,98M | R$ 17,08M | R$ 22,52M | R$ 39,41M |
-| **Caixa Final** | R$ 2,98M | R$ 17,08M | R$ 22,52M | R$ 39,41M | R$ 75,66M |
+| **Variacao Caixa** | R$ 3,41M | R$ 14,82M | R$ 6,59M | R$ 18,33M | R$ 37,98M |
+| **Caixa Inicial** | R$ 0 | R$ 3,41M | R$ 18,23M | R$ 24,82M | R$ 43,15M |
+| **Caixa Final** | R$ 3,41M | R$ 18,23M | R$ 24,82M | R$ 43,15M | R$ 81,13M |
 
 ### 6.2 Fluxo de Caixa Trimestral - Ano 1 e 2
 
 | Periodo | EBITDA | Caixa Acumulado |
 |---------|--------|-----------------|
-| Ano 1 | -R$ 1,72M | -R$ 1,72M |
-| Ano 2 Q1 | -R$ 0,30M | -R$ 2,02M |
-| Ano 2 Q2 | R$ 0,05M | -R$ 1,97M |
-| Ano 2 Q3 | R$ 0,30M | -R$ 1,67M |
-| Ano 2 Q4 | R$ 0,40M | -R$ 1,27M |
+| Ano 1 | -R$ 1,29M | -R$ 1,29M |
+| Ano 2 Q1 | -R$ 0,10M | -R$ 1,39M |
+| Ano 2 Q2 | R$ 0,20M | -R$ 1,19M |
+| Ano 2 Q3 | R$ 0,40M | -R$ 0,79M |
+| Ano 2 Q4 | R$ 0,67M | -R$ 0,12M |
 | Ano 3+ | Positivo | Recuperacao |
 
 ### 6.3 Necessidade de Capital por Rodada
 
-| Rodada | Timing | Valor | Objetivo | Diluicao Est. |
-|--------|--------|-------|----------|---------------|
-| **Pre-Seed** | M0 | R$ 1,5M | MVP, time core (8 pessoas), beta com 2K usuarios | 15-20% |
-| **Seed** | M12 | R$ 4,0M | Escala para 50K usuarios, time 35 pessoas | 15-20% |
-| **Serie A** | M30 | R$ 15,0M | Expansao nacional, 200K usuarios, time 65+ | 15-20% |
+| Rodada | Timing | Valor | Objetivo | Diluicao |
+|--------|--------|-------|----------|----------|
+| **Pre-Seed** | M0 | R$ 1,5M | MVP, time core (7 pessoas), beta com 2K usuarios | 10% |
+| **Seed** | M12 | R$ 4,0M | Escala para 50K usuarios, time 30 pessoas | 12% |
+| **Serie A** | M30 | R$ 15,0M | Expansao nacional, 200K usuarios, time 55+ | 23% |
 | **Total** | - | **R$ 20,5M** | | |
 
 ### 6.4 Uso dos Recursos - Seed (R$ 4,0M)
@@ -470,19 +483,19 @@ Ano 5: R$ 39,65M  |============================================== MATURIDADE
 
 | Componente | Valor |
 |------------|-------|
-| Queima Operacional (Ano 1-2) | R$ 2.020.000 |
-| Capital de Giro | R$ 500.000 |
-| Reserva de Contingencia (20%) | R$ 504.000 |
-| **Total Minimo** | **R$ 3.024.000** |
-| **Recomendado (com buffer)** | **R$ 4.000.000** |
+| Queima Operacional (Ano 1) | R$ 1.290.000 |
+| Capital de Giro | R$ 400.000 |
+| Reserva de Contingencia (20%) | R$ 338.000 |
+| **Total Minimo** | **R$ 2.028.000** |
+| **Recomendado (com buffer)** | **R$ 3.000.000** |
 
 ### 6.6 Runway por Fase
 
 | Fase | Burn Mensal | Caixa | Runway |
 |------|-------------|-------|--------|
-| Pos-Pre-Seed | R$ 143K | R$ 1,5M | 10 meses |
-| Pos-Seed | R$ 250K | R$ 4,0M | 16 meses |
-| Pos-Serie A | R$ 500K | R$ 15,0M | 30 meses |
+| Pos-Pre-Seed | R$ 107K | R$ 1,5M | 14 meses |
+| Pos-Seed | R$ 200K | R$ 4,0M | 20 meses |
+| Pos-Serie A | Cash positive | R$ 15,0M | Indefinido |
 | Breakeven+ | Cash positive | - | Indefinido |
 
 ---
@@ -493,35 +506,35 @@ Ano 5: R$ 39,65M  |============================================== MATURIDADE
 
 | Metrica | Calculo |
 |---------|---------|
-| Custos Fixos Mensais (Ano 2) | R$ 567K |
+| Custos Fixos Mensais (Ano 2) | R$ 506K |
 | Margem Contribuicao/Familia/Mes | R$ 19,05 |
-| **Break-even Familias** | **~32.000 familias** |
-| **Timing Break-even** | **Mes 18 (Q2 do Ano 2)** |
+| **Break-even Familias** | **~27.000 familias** |
+| **Timing Break-even** | **Mes 16 (Q1 do Ano 2)** |
 
 ### 7.2 Calculo Detalhado do Break-even
 
 ```
 Ponto de Equilibrio = Custos Fixos / (Receita/Usuario - Custo Variavel/Usuario)
 
-Custos Fixos Anuais (Ano 2): ~R$ 6,8M (Equipe + Outros)
-Margem de Contribuicao/Usuario: R$ 270 - R$ 42 - R$ 68* = R$ 160
-*Marketing por usuario no Ano 2
+Custos Fixos Anuais (Ano 2): ~R$ 6,1M (Equipe + Outros)
+Custos Fixos Mensais: ~R$ 506K
+Margem de Contribuicao/Familia/Mes: R$ 19,05
 
-Break-Even = R$ 6.800.000 / R$ 160 = ~42.500 usuarios
-Considerando mix de custos variavel: ~32.000 usuarios
+Break-Even = R$ 506.000 / R$ 19,05 = ~26.600 usuarios
+Arredondando: ~27.000 familias
 ```
 
 ### 7.3 Evolucao para Break-even
 
 | Mes | Familias | Receita Mensal | Custos Mensais | Resultado | Acumulado |
 |-----|----------|----------------|----------------|-----------|-----------|
-| 6 | 7.500 | R$ 169K | R$ 305K | -R$ 136K | -R$ 816K |
-| 12 | 15.000 | R$ 338K | R$ 429K | -R$ 91K | -R$ 1,72M |
-| **18** | **32.000** | **R$ 722K** | **R$ 722K** | **R$ 0** | -R$ 2,02M |
-| 24 | 45.000 | R$ 1,01M | R$ 820K | R$ 194K | -R$ 1,27M |
-| 36 | 100.000 | R$ 2,25M | R$ 1,28M | R$ 978K | R$ 7,54M |
-| 48 | 180.000 | R$ 4,06M | R$ 1,79M | R$ 2,27M | R$ 27,1M |
-| 60 | 300.000 | R$ 6,76M | R$ 2,41M | R$ 4,35M | R$ 66,7M |
+| 6 | 7.500 | R$ 169K | R$ 278K | -R$ 109K | -R$ 654K |
+| 12 | 15.000 | R$ 338K | R$ 393K | -R$ 55K | -R$ 1,29M |
+| **16** | **27.000** | **R$ 609K** | **R$ 609K** | **R$ 0** | -R$ 1,39M |
+| 24 | 45.000 | R$ 1,01M | R$ 760K | R$ 254K | -R$ 0,12M |
+| 36 | 100.000 | R$ 2,25M | R$ 1,18M | R$ 1,07M | R$ 8,69M |
+| 48 | 180.000 | R$ 4,06M | R$ 1,68M | R$ 2,38M | R$ 29,7M |
+| 60 | 300.000 | R$ 6,76M | R$ 2,26M | R$ 4,50M | R$ 71,1M |
 
 ### 7.4 Grafico Break-even
 
@@ -533,10 +546,10 @@ Resultado Mensal (R$ milhoes)
   3  |                                        ██████████████████
   2  |                                  ██████████████████████████
   1  |                            ██████████████████████████████████
-  0  |----------------████████████████████████████████████████████  <- Break-even M18
+  0  |------------████████████████████████████████████████████████  <- Break-even M16
  -1  |████████████████████████████████████████████████████████████
      +------------------------------------------------------------
-       M6   M12   M18   M24   M30   M36   M42   M48   M54   M60
+       M6   M12   M16   M24   M30   M36   M42   M48   M54   M60
 ```
 
 ### 7.5 Cash Position ao Longo do Tempo
@@ -544,13 +557,13 @@ Resultado Mensal (R$ milhoes)
 ```
 Caixa (R$ milhoes)
 
-  76 |                                                    ████
-  64 |                                              ██████████
-  52 |                                        ██████████████████
-  40 |                            ████████████████████████████████
-  28 |              ██████████████████████████████████████████████
-  16 |    ████████████████████████████████████████████████████████
-   4 |████████████████████████████████████████████████████████████
+  81 |                                                    ████
+  68 |                                              ██████████
+  55 |                                        ██████████████████
+  43 |                            ████████████████████████████████
+  30 |              ██████████████████████████████████████████████
+  18 |    ████████████████████████████████████████████████████████
+   3 |████████████████████████████████████████████████████████████
      +------------------------------------------------------------
        M6   M12   M18   M24   M30   M36   M42   M48   M54   M60
 ```
@@ -559,9 +572,9 @@ Caixa (R$ milhoes)
 
 | Cenario | Usuarios p/ Break-Even | Tempo |
 |---------|------------------------|-------|
-| Otimista (+20% conversao) | 27.000 | Mes 15 |
-| **Base (conservador)** | **32.000** | **Mes 18** |
-| Pessimista (-20% conversao) | 40.000 | Mes 22 |
+| Otimista (+20% conversao) | 22.000 | Mes 13 |
+| **Base (conservador)** | **27.000** | **Mes 16** |
+| Pessimista (-20% conversao) | 34.000 | Mes 20 |
 
 ---
 
@@ -589,10 +602,10 @@ Caixa (R$ milhoes)
 | Familias Ativas | 10.500 | 31.500 | 70.000 | 126.000 | 210.000 |
 | ARR | R$ 2,8M | R$ 8,5M | R$ 18,9M | R$ 34,1M | R$ 56,8M |
 | Receita Total | R$ 2,8M | R$ 8,5M | R$ 18,9M | R$ 34,1M | R$ 56,8M |
-| EBITDA | -R$ 2,8M | -R$ 2,5M | R$ 2,5M | R$ 10,0M | R$ 22,0M |
-| Margem EBITDA | -100% | -29% | 13% | 29% | 39% |
-| Break-even | Mes 24 | - | - | - | - |
-| Funding Adicional | +R$ 3M | - | - | - | - |
+| EBITDA | -R$ 2,4M | -R$ 1,6M | R$ 3,5M | R$ 12,0M | R$ 24,5M |
+| Margem EBITDA | -86% | -19% | 19% | 35% | 43% |
+| Break-even | Mes 22 | - | - | - | - |
+| Funding Adicional | +R$ 2M | - | - | - | - |
 
 ### 8.3 Cenario Conservador (Base)
 
@@ -601,9 +614,9 @@ Caixa (R$ milhoes)
 | Familias Ativas | 15.000 | 45.000 | 100.000 | 180.000 | 300.000 |
 | ARR | R$ 4,1M | R$ 12,2M | R$ 27,0M | R$ 48,7M | R$ 81,1M |
 | Receita Total | R$ 4,1M | R$ 12,2M | R$ 27,0M | R$ 48,7M | R$ 81,1M |
-| EBITDA | -R$ 1,7M | R$ 0,4M | R$ 7,5M | R$ 19,6M | R$ 39,7M |
-| Margem EBITDA | -42% | 4% | 28% | 40% | 49% |
-| Break-even | Mes 18 | - | - | - | - |
+| EBITDA | -R$ 1,3M | R$ 1,2M | R$ 8,7M | R$ 21,0M | R$ 41,4M |
+| Margem EBITDA | -32% | 10% | 32% | 43% | 51% |
+| Break-even | Mes 16 | - | - | - | - |
 
 ### 8.4 Cenario Otimista
 
@@ -617,9 +630,9 @@ Caixa (R$ milhoes)
 | Familias Ativas | 19.500 | 58.500 | 130.000 | 234.000 | 390.000 |
 | ARR | R$ 5,3M | R$ 15,8M | R$ 35,1M | R$ 63,3M | R$ 105,5M |
 | Receita Total | R$ 5,3M | R$ 15,8M | R$ 35,1M | R$ 63,3M | R$ 105,5M |
-| EBITDA | -R$ 0,8M | R$ 2,5M | R$ 14,0M | R$ 31,0M | R$ 65,0M |
-| Margem EBITDA | -15% | 16% | 40% | 49% | 62% |
-| Break-even | Mes 14 | - | - | - | - |
+| EBITDA | -R$ 0,4M | R$ 3,5M | R$ 15,5M | R$ 33,0M | R$ 68,0M |
+| Margem EBITDA | -8% | 22% | 44% | 52% | 64% |
+| Break-even | Mes 12 | - | - | - | - |
 
 ### 8.5 Comparativo Visual - ARR Ano 5
 
@@ -638,9 +651,9 @@ Pessimista     |█████████████████████�
 ```
 EBITDA (R$ milhoes) - Ano 5
 
-Otimista       |████████████████████████████████████████████████████  R$ 65,0M
-Conservador    |███████████████████████████████                       R$ 39,7M
-Pessimista     |█████████████████                                     R$ 22,0M
+Otimista       |████████████████████████████████████████████████████  R$ 68,0M
+Conservador    |████████████████████████████████                      R$ 41,4M
+Pessimista     |██████████████████                                    R$ 24,5M
                +------------------------------------------------------
                  0     10     20     30     40     50     60     70
 ```
@@ -649,11 +662,11 @@ Pessimista     |█████████████████             
 
 | Cenario | Probabilidade | ARR Ano 5 | EBITDA Ano 5 |
 |---------|---------------|-----------|--------------|
-| Pessimista | 25% | R$ 56,8M | R$ 22,0M |
-| Conservador | 55% | R$ 81,1M | R$ 39,7M |
-| Otimista | 20% | R$ 105,5M | R$ 65,0M |
+| Pessimista | 25% | R$ 56,8M | R$ 24,5M |
+| Conservador | 55% | R$ 81,1M | R$ 41,4M |
+| Otimista | 20% | R$ 105,5M | R$ 68,0M |
 | | | | |
-| **Valor Esperado** | 100% | **R$ 79,9M** | **R$ 37,9M** |
+| **Valor Esperado** | 100% | **R$ 79,9M** | **R$ 42,5M** |
 
 ---
 
@@ -672,13 +685,13 @@ Pessimista     |█████████████████             
 | LTV/CAC | 8,5x | 7,5x | 8,4x | 8,2x | 8,6x | > 3x |
 | | | | | | | |
 | **Escala** | | | | | | |
-| Receita/Funcionario | R$ 203K | R$ 348K | R$ 541K | R$ 749K | R$ 1,01M | > R$ 300K |
-| Usuarios/Funcionario | 750 | 1.286 | 2.000 | 2.769 | 3.750 | - |
+| Receita/Funcionario | R$ 239K | R$ 406K | R$ 644K | R$ 885K | R$ 1,19M | > R$ 300K |
+| Usuarios/Funcionario | 882 | 1.500 | 2.381 | 3.273 | 4.412 | - |
 | | | | | | | |
 | **Rentabilidade** | | | | | | |
 | Margem Bruta | 84,5% | 84,5% | 84,5% | 84,5% | 84,5% | > 70% |
-| Margem EBITDA | -42% | 4% | 28% | 40% | 49% | > 20% (mature) |
-| Rule of 40* | 158% | 204% | 150% | 120% | 116% | > 40% |
+| Margem EBITDA | -32% | 10% | 32% | 43% | 51% | > 20% (mature) |
+| Rule of 40* | 168% | 210% | 154% | 123% | 118% | > 40% |
 
 *Rule of 40 = Crescimento % + Margem EBITDA %*
 
@@ -698,10 +711,11 @@ Pessimista     |█████████████████             
 | Usuarios | ~500K | 100K |
 | ARR | ~$30M | R$ 27M (~$5,4M) |
 | Funding Acumulado | ~$80M | R$ 20,5M (~$4,1M) |
-| Headcount | ~150 | 50 |
+| Headcount | ~150 | 42 |
 | Margem Bruta | ~75% | 84,5% |
+| Receita/Funcionario | ~$200K | R$ 644K (~$129K) |
 
-**Nota:** Operacao significativamente mais enxuta que a Greenlight, com 5x menos capital necessario, refletindo a premissa conservadora de crescimento gradual e organico.
+**Nota:** Operacao significativamente mais enxuta que a Greenlight, com 5x menos capital necessario e 3,5x menos pessoas, refletindo a premissa conservadora de crescimento gradual, time lean e alta produtividade por pessoa.
 
 ---
 
@@ -759,8 +773,8 @@ ARPU            |█████████████████████
 Usuarios        |██████████████████████████████████      | +/- R$ 8,0M
 Marketing       |██████████████████████████████          | +/- R$ 6,5M
 Churn           |████████████████████████                | +/- R$ 5,0M
-Custo Pessoal   |██████████████████                      | +/- R$ 3,5M
-COGS            |████████████████                        | +/- R$ 2,5M
+Custo Pessoal   |████████████████                        | +/- R$ 2,0M
+COGS            |██████████████                          | +/- R$ 2,5M
                 +----------------------------------------+
                 -10M   -8M   -6M   -4M   -2M   0   +2M   +4M   +6M   +8M   +10M
 ```
@@ -777,7 +791,7 @@ COGS            |████████████████               
 | Entrada grandes bancos | Alta | Alto | 16 | Diferenciacao por experiencia educacional, UX superior |
 | Churn acima esperado | Media | Alto | 12 | Produto sticky, gamificacao, conteudo educacional |
 | CAC insustentavel | Media | Alto | 12 | Growth organico, referral program, parcerias escolas |
-| Falha de execucao time | Media | Alto | 12 | Time enxuto e senior, advisors experientes |
+| Time pequeno nao escala | Media | Alto | 12 | Automacao agressiva, AI-assisted, contratacoes cirurgicas |
 | Fraude/Seguranca | Baixa | Critico | 10 | KYC robusto, monitoramento, antifraude |
 | Economia brasileira | Media | Medio | 9 | Foco classes A/B, pricing acessivel |
 | Custos BaaS acima | Media | Medio | 9 | Negociar volume, avaliar multi-provider |
@@ -823,33 +837,53 @@ COGS            |████████████████               
 
 | Momento | ARR | Multiplo | Valuation |
 |---------|-----|----------|-----------|
-| Pre-Seed (M0) | R$ 0 | - | R$ 5M (pre-revenue) |
+| Pre-Seed (M0) | R$ 0 | - | R$ 13,5M (pre-money) |
 | Seed (M12) | R$ 4,1M | 5x | R$ 20M |
 | Serie A (M30) | R$ 20M | 5x | R$ 100M |
 | Exit potencial (Ano 5) | R$ 81M | 6x | R$ 486M |
 
-### 12.3 Retorno para Investidores (Cenario Exit Ano 5 - R$ 486M)
+### 12.3 Estrutura de Diluicao (Fundadores Mantem 55%)
+
+| Evento | Diluicao | Founders Pos | Detalhes |
+|--------|----------|-------------|----------|
+| Inicio | - | 100% | Fundadores iniciam com 100% |
+| **Pre-Seed** | 10% | 90% | R$ 1,5M por 10%, pre-money R$ 13,5M |
+| **ESOP** | 7% (carve-out) | 83,7% | Pool de opcoes para time |
+| **Seed** | 12% | 73,7% | R$ 4,0M por 12%, pre-money R$ 29,3M |
+| **Serie A** | 23% | **55,0%** | R$ 15,0M por 23%, pre-money R$ 50,2M |
+
+### 12.4 Cap Table Pos-Serie A
+
+| Investidor | % | Investimento |
+|------------|---|-------------|
+| **Fundadores** | **55%** | - |
+| Pre-Seed | 6% | R$ 1,5M |
+| ESOP (Pool) | 7% | - |
+| Seed | 9% | R$ 4,0M |
+| Serie A | 23% | R$ 15,0M |
+| **Total** | **100%** | **R$ 20,5M** |
+
+### 12.5 Retorno para Investidores (Cenario Exit Ano 5 - R$ 486M)
 
 | Investidor | Investimento | % Pos-Diluicao | Valor Exit | Multiplo | IRR |
 |------------|--------------|----------------|------------|----------|-----|
-| Fundadores | - | 42% | R$ 204M | - | - |
-| Pre-Seed | R$ 1,5M | 8% | R$ 39M | 26x | 92% |
-| Seed | R$ 4,0M | 12% | R$ 58M | 14,5x | 72% |
-| Serie A | R$ 15,0M | 15% | R$ 73M | 4,9x | 48% |
-| ESOP | - | 10% | R$ 49M | - | - |
-| Outros | - | 13% | R$ 63M | - | - |
+| **Fundadores** | - | **55%** | **R$ 267M** | - | - |
+| Pre-Seed | R$ 1,5M | 6% | R$ 29M | 19x | 80% |
+| Seed | R$ 4,0M | 9% | R$ 44M | 11x | 65% |
+| Serie A | R$ 15,0M | 23% | R$ 112M | 7,5x | 55% |
+| ESOP | - | 7% | R$ 34M | - | - |
 | **Total** | **R$ 20,5M** | 100% | **R$ 486M** | - | - |
 
-**Nota:** Valuation de exit conservador (6x ARR) comparado com multiplos de mercado de 14-28x para fintechs kids. Em cenario de multiplos mais altos, retornos seriam significativamente maiores.
+**Nota:** Valuation de exit conservador (6x ARR) comparado com multiplos de mercado de 14-28x para fintechs kids. Em cenario de multiplos mais altos, retornos seriam significativamente maiores. Fundadores mantem 55% do equity, demonstrando forte alinhamento e skin in the game.
 
-### 12.4 Cenarios de Exit
+### 12.6 Cenarios de Exit
 
-| Cenario | Multiplo | Valuation | Multiplo Pre-Seed | Multiplo Seed |
-|---------|----------|-----------|-------------------|---------------|
-| Conservador | 4x ARR | R$ 324M | 17x | 10x |
-| Base | 6x ARR | R$ 486M | 26x | 14,5x |
-| Otimista | 10x ARR | R$ 811M | 43x | 24x |
-| Premium (M&A) | 15x ARR | R$ 1,22B | 65x | 36x |
+| Cenario | Multiplo | Valuation | Retorno Founders | Retorno Pre-Seed | Retorno Seed |
+|---------|----------|-----------|------------------|------------------|--------------|
+| Conservador | 4x ARR | R$ 324M | R$ 178M | 12x | 7x |
+| Base | 6x ARR | R$ 486M | R$ 267M | 19x | 11x |
+| Otimista | 10x ARR | R$ 811M | R$ 446M | 32x | 18x |
+| Premium (M&A) | 15x ARR | R$ 1,22B | R$ 669M | 49x | 27x |
 
 ---
 
@@ -874,17 +908,20 @@ COGS            |████████████████               
 | BaaS | Banking as a Service |
 | KYC | Know Your Customer |
 | Float | Rendimento sobre saldos em conta |
+| ESOP | Employee Stock Option Plan |
 
 ### B. Diferencas vs Modelo Base (Otimista)
 
-| Metrica | Modelo Base | Este Modelo (Conservador) | Diferenca |
-|---------|-------------|---------------------------|-----------|
+| Metrica | Modelo Base | Este Modelo (Conservador v2) | Diferenca |
+|---------|-------------|------------------------------|-----------|
 | Familias Ano 5 | 1.200.000 | 300.000 | -75% |
 | ARR Ano 5 | R$ 363M | R$ 81M | -78% |
-| EBITDA Ano 5 | R$ 147M | R$ 40M | -73% |
-| Headcount Ano 5 | 380 | 80 | -79% |
+| EBITDA Ano 5 | R$ 147M | R$ 41M | -72% |
+| Headcount Ano 5 | 380 | 68 | -82% |
+| Engenharia Ano 1 | 15 | 4 | -73% |
 | Funding Total | R$ 123M | R$ 20,5M | -83% |
-| Break-even | Mes 28 | Mes 18 | -10 meses |
+| Break-even | Mes 28 | Mes 16 | -12 meses |
+| Founders Pos-Aportes | 38% | 55% | +17pp |
 | Plano Gratuito | Nao | Sim (50%) | Funil conversao |
 | Reajuste ARPU | Sim (anual) | Nao | Premissa fixa |
 
@@ -893,11 +930,12 @@ COGS            |████████████████               
 1. **Sem reajuste de precos:** ARPU fixo em R$ 17,50 por 5 anos
 2. **50% usuarios gratuitos:** Funil de conversao com metade da base sem pagar
 3. **Crescimento moderado:** 300K familias em 5 anos (vs 1,2M no cenario base)
-4. **Time enxuto:** Maximo 80 pessoas (vs 380 no cenario base)
+4. **Time ultra-enxuto:** Maximo 68 pessoas (vs 380 no cenario base), engenharia comeca com 4
 5. **Funding reduzido:** R$ 20,5M total (vs R$ 123M no cenario base)
-6. **Sem receitas B2B/White-label:** Nao projetadas receitas de parcerias B2B
-7. **Sem cashback/parcerias comerciais:** Receita limitada a assinaturas + interchange + float
-8. **Revenue share menor:** 60% do interchange (vs 65% no cenario base)
+6. **Fundadores com controle:** 55% pos-aportes (vs 38% no cenario base)
+7. **Sem receitas B2B/White-label:** Nao projetadas receitas de parcerias B2B
+8. **Sem cashback/parcerias comerciais:** Receita limitada a assinaturas + interchange + float
+9. **Revenue share menor:** 60% do interchange (vs 65% no cenario base)
 
 ### D. Fontes
 
@@ -913,4 +951,4 @@ COGS            |████████████████               
 *Documento elaborado para fins de planejamento estrategico e captacao de investimentos.*
 *Cenario conservador - projecoes com premissas prudentes para mitigar risco.*
 *As projecoes sao estimativas baseadas em premissas que podem variar.*
-*Versao 1.0 | Janeiro 2026*
+*Versao 2.0 | Janeiro 2026*
