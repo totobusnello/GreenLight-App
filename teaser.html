@@ -1714,105 +1714,160 @@
 <!-- ==================== SLIDE 8: NUMEROS-CHAVE ==================== -->
 <div class="slide">
     <div class="slide-header">
-        <h1>Projeção Financeira (Conservador)</h1>
-        <div class="subtitle">300K famílias e R$ 81M ARR em 5 anos com EBITDA de 51%</div>
+        <h1>Projeção Financeira &amp; Captação</h1>
+        <div class="subtitle">Visão geral: operação, captações e diluição até break-even e além</div>
         <div class="header-line"></div>
     </div>
     <div class="slide-body">
-        <table class="numbers-table">
-            <thead>
-                <tr>
-                    <th>Métrica</th>
-                    <th>Ano 1</th>
-                    <th>Ano 2</th>
-                    <th>Ano 3</th>
-                    <th>Ano 4</th>
-                    <th>Ano 5</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Famílias Ativas</td>
-                    <td>15K</td>
-                    <td>45K</td>
-                    <td>100K</td>
-                    <td>180K</td>
-                    <td class="year-5">300K</td>
-                </tr>
-                <tr>
-                    <td>Crianças Ativas</td>
-                    <td>27K</td>
-                    <td>81K</td>
-                    <td>180K</td>
-                    <td>324K</td>
-                    <td class="year-5">540K</td>
-                </tr>
-                <tr class="highlight-row">
-                    <td>ARR</td>
-                    <td>R$ 4,1M</td>
-                    <td>R$ 12,2M</td>
-                    <td>R$ 27,0M</td>
-                    <td>R$ 48,7M</td>
-                    <td class="year-5">R$ 81,1M</td>
-                </tr>
-                <tr>
-                    <td>Margem Bruta</td>
-                    <td>84,5%</td>
-                    <td>84,5%</td>
-                    <td>84,5%</td>
-                    <td>84,5%</td>
-                    <td class="year-5">84,5%</td>
-                </tr>
-                <tr class="highlight-row">
-                    <td>EBITDA</td>
-                    <td style="color:var(--red-soft)">-R$ 1,3M</td>
-                    <td>R$ 1,2M</td>
-                    <td>R$ 8,7M</td>
-                    <td>R$ 21,0M</td>
-                    <td class="year-5">R$ 41,4M</td>
-                </tr>
-                <tr>
-                    <td>Margem EBITDA</td>
-                    <td style="color:var(--red-soft)">-32%</td>
-                    <td>10%</td>
-                    <td>32%</td>
-                    <td>43%</td>
-                    <td class="year-5">51%</td>
-                </tr>
-                <tr>
-                    <td>Lucro Líquido</td>
-                    <td style="color:var(--red-soft)">-R$ 1,3M</td>
-                    <td>R$ 0,7M</td>
-                    <td>R$ 5,6M</td>
-                    <td>R$ 13,7M</td>
-                    <td class="year-5">R$ 27,1M</td>
-                </tr>
-                <tr>
-                    <td>Headcount</td>
-                    <td>17</td>
-                    <td>30</td>
-                    <td>42</td>
-                    <td>55</td>
-                    <td class="year-5">68</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="kpi-row">
-            <div class="kpi-box">
-                <div class="kpi-value">200%</div>
-                <div class="kpi-label">Crescimento ARR Ano 2</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:30px;">
+            <!-- COLUNA ESQUERDA: Tabela financeira compacta -->
+            <div>
+                <h3 style="font-size:14px; font-weight:700; color:var(--blue-deep); margin-bottom:10px;">Projeção Operacional (Cenário Conservador)</h3>
+                <table class="numbers-table" style="margin-top:0;">
+                    <thead>
+                        <tr>
+                            <th>Métrica</th>
+                            <th>Ano 1</th>
+                            <th>Ano 2</th>
+                            <th>Ano 3</th>
+                            <th>Ano 4</th>
+                            <th>Ano 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Famílias</td>
+                            <td>15K</td>
+                            <td>45K</td>
+                            <td>100K</td>
+                            <td>180K</td>
+                            <td class="year-5">300K</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td>ARR</td>
+                            <td>R$ 4,1M</td>
+                            <td>R$ 12,2M</td>
+                            <td>R$ 27,0M</td>
+                            <td>R$ 48,7M</td>
+                            <td class="year-5">R$ 81,1M</td>
+                        </tr>
+                        <tr>
+                            <td>Margem Bruta</td>
+                            <td>84,5%</td>
+                            <td>84,5%</td>
+                            <td>84,5%</td>
+                            <td>84,5%</td>
+                            <td class="year-5">84,5%</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td>EBITDA</td>
+                            <td style="color:var(--red-soft)">-R$ 1,3M</td>
+                            <td>R$ 1,2M</td>
+                            <td>R$ 8,7M</td>
+                            <td>R$ 21,0M</td>
+                            <td class="year-5">R$ 41,4M</td>
+                        </tr>
+                        <tr>
+                            <td>Margem EBITDA</td>
+                            <td style="color:var(--red-soft)">-32%</td>
+                            <td>10%</td>
+                            <td>32%</td>
+                            <td>43%</td>
+                            <td class="year-5">51%</td>
+                        </tr>
+                        <tr>
+                            <td>Lucro Líquido</td>
+                            <td style="color:var(--red-soft)">-R$ 1,3M</td>
+                            <td>R$ 0,7M</td>
+                            <td>R$ 5,6M</td>
+                            <td>R$ 13,7M</td>
+                            <td class="year-5">R$ 27,1M</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- KPIs compactos -->
+                <div style="display:flex; gap:10px; margin-top:12px;">
+                    <div style="flex:1; text-align:center; padding:8px; background:var(--gray-50); border-radius:8px; border-top:3px solid var(--green);">
+                        <div style="font-size:20px; font-weight:900; color:var(--blue-deep);">200%</div>
+                        <div style="font-size:10px; color:var(--gray-600);">Crescimento ARR Ano 2</div>
+                    </div>
+                    <div style="flex:1; text-align:center; padding:8px; background:var(--gray-50); border-radius:8px; border-top:3px solid var(--green);">
+                        <div style="font-size:20px; font-weight:900; color:var(--blue-deep);">M16</div>
+                        <div style="font-size:10px; color:var(--gray-600);">Break-even operacional</div>
+                    </div>
+                    <div style="flex:1; text-align:center; padding:8px; background:var(--gray-50); border-radius:8px; border-top:3px solid var(--green);">
+                        <div style="font-size:20px; font-weight:900; color:var(--blue-deep);">118%</div>
+                        <div style="font-size:10px; color:var(--gray-600);">Rule of 40 (Ano 5)</div>
+                    </div>
+                </div>
             </div>
-            <div class="kpi-box">
-                <div class="kpi-value">R$ 1,19M</div>
-                <div class="kpi-label">Receita/funcionário Ano 5</div>
-            </div>
-            <div class="kpi-box">
-                <div class="kpi-value">118%</div>
-                <div class="kpi-label">Rule of 40 (Ano 5)</div>
-            </div>
-            <div class="kpi-box">
-                <div class="kpi-value">33%</div>
-                <div class="kpi-label">Margem Líquida Ano 5</div>
+            <!-- COLUNA DIREITA: Roadmap de captação -->
+            <div>
+                <h3 style="font-size:14px; font-weight:700; color:var(--blue-deep); margin-bottom:10px;">Roadmap de Captação &amp; Diluição</h3>
+                <!-- Pre-Seed -->
+                <div style="padding:14px 16px; border-radius:10px; border:2px solid var(--green); background:rgba(0,200,83,0.05); margin-bottom:10px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <div>
+                            <div style="font-size:13px; font-weight:800; color:var(--green);">&#x1F331; PRE-SEED &mdash; M0 (2026)</div>
+                            <div style="font-size:11px; color:var(--gray-600); margin-top:2px;">MVP, time core (7 pessoas), beta com 2K famílias</div>
+                        </div>
+                        <div style="text-align:right;">
+                            <div style="font-size:20px; font-weight:900; color:var(--blue-deep);">R$ 1,5M</div>
+                            <div style="font-size:11px; color:var(--gray-600);">10% diluição</div>
+                        </div>
+                    </div>
+                    <div style="display:flex; gap:16px; margin-top:8px; font-size:11px;">
+                        <span style="color:var(--blue-deep); font-weight:700;">Founders: 90%</span>
+                        <span style="color:var(--gray-400);">Pre-money: R$ 13,5M</span>
+                        <span style="color:var(--gray-400);">Runway: 14 meses</span>
+                    </div>
+                </div>
+                <!-- BREAK-EVEN -->
+                <div style="text-align:center; padding:6px; margin-bottom:10px;">
+                    <div style="display:inline-block; background:var(--green); color:white; font-size:11px; font-weight:800; padding:4px 16px; border-radius:20px; letter-spacing:0.5px;">&#x2713; BREAK-EVEN OPERACIONAL &mdash; M16</div>
+                </div>
+                <!-- Seed -->
+                <div style="padding:14px 16px; border-radius:10px; border:2px solid var(--gray-200); background:var(--gray-50); margin-bottom:10px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <div>
+                            <div style="font-size:13px; font-weight:800; color:var(--blue-deep);">&#x1F680; SEED &mdash; M12 (2027)</div>
+                            <div style="font-size:11px; color:var(--gray-600); margin-top:2px;">Escala para 50K famílias, time 30 pessoas</div>
+                        </div>
+                        <div style="text-align:right;">
+                            <div style="font-size:20px; font-weight:900; color:var(--blue-deep);">R$ 4,0M</div>
+                            <div style="font-size:11px; color:var(--gray-600);">12% diluição</div>
+                        </div>
+                    </div>
+                    <div style="display:flex; gap:16px; margin-top:8px; font-size:11px;">
+                        <span style="color:var(--blue-deep); font-weight:700;">Founders: 73,7%</span>
+                        <span style="color:var(--gray-400);">Pre-money: R$ 29,3M</span>
+                        <span style="color:var(--gray-400);">Runway: 20 meses</span>
+                    </div>
+                </div>
+                <!-- Serie A -->
+                <div style="padding:14px 16px; border-radius:10px; border:2px solid var(--gray-200); background:var(--gray-50); margin-bottom:10px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <div>
+                            <div style="font-size:13px; font-weight:800; color:var(--blue-deep);">&#x1F4C8; SÉRIE A &mdash; M30 (2028)</div>
+                            <div style="font-size:11px; color:var(--gray-600); margin-top:2px;">Expansão nacional, 200K famílias, time 55+</div>
+                        </div>
+                        <div style="text-align:right;">
+                            <div style="font-size:20px; font-weight:900; color:var(--blue-deep);">R$ 15,0M</div>
+                            <div style="font-size:11px; color:var(--gray-600);">23% diluição</div>
+                        </div>
+                    </div>
+                    <div style="display:flex; gap:16px; margin-top:8px; font-size:11px;">
+                        <span style="color:var(--blue-deep); font-weight:700;">Founders: 55%</span>
+                        <span style="color:var(--gray-400);">Pre-money: R$ 50,2M</span>
+                        <span style="color:var(--gray-400);">Cash positive</span>
+                    </div>
+                </div>
+                <!-- Resumo total -->
+                <div style="padding:10px 16px; background:var(--blue-deep); border-radius:8px; color:white; display:flex; justify-content:space-between; font-size:12px;">
+                    <span>Total captado: <strong style="color:var(--green);">R$ 20,5M</strong></span>
+                    <span>Founders pós-aportes: <strong style="color:var(--green);">55%</strong></span>
+                    <span>Exit potencial: <strong style="color:var(--green);">6x ARR = R$ 487M</strong></span>
+                </div>
             </div>
         </div>
     </div>
@@ -2010,7 +2065,7 @@
 <div class="slide">
     <div class="slide-header">
         <h1>O Time</h1>
-        <div class="subtitle">Fundadores com skin in the game &mdash; 55% do equity pós-aportes</div>
+        <div class="subtitle">Fundadores com skin in the game &mdash; 90% do equity pós Pre-Seed</div>
         <div class="header-line"></div>
     </div>
     <div class="slide-body">
@@ -2038,8 +2093,8 @@
         </div>
         <div class="team-values">
             <div class="team-value-card">
-                <div class="tv-num">55%</div>
-                <div class="tv-text">Equity fundadores pós-aportes</div>
+                <div class="tv-num">90%</div>
+                <div class="tv-text">Equity fundadores pós Pre-Seed</div>
             </div>
             <div class="team-value-card">
                 <div class="tv-num">17</div>
